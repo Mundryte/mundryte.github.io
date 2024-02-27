@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+}
+#home {
+	background-color: #d5c8ce ;
+}
+
+#About {
+	background-color: #d5c8ce ;
+}
+#Galery {
+	background-color: #d5c8ce ;
+}
+#contact {
+	background-color: #d5c8ce ;
+}
+
+.background {
+	background-image: url("memel.jpg");
+ background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100px;
+}
+header h2 {
+  color: #000000;
+  margin: 0;
+  padding: 40px;
+  font-family: 'Goramond', serif;
+	text-align: left
+}
+h1 {
+	font-family: 'Goramond', serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0 0 0 25px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  font-family: 'Garamond', serif;
+  font-size: 18px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: underline;
+}
+.active {
+  background-color: #a18d8f;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #a18d8f;
+}
+
+footer {
+  color: black;
+  margin: 6;
+  text-align: center;
+}
+
+#container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.two-column {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 30px;
+  background-color: #a18d8f;
+}
+}
+.two-column div {
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #a18d8f;
+}
+
+.three-column {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px;
+  background-color: #a18d8f;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: start;
+  justify-items: center;
+}
+
+.three-column div {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10 px
+}
+#copyright {
+  margin-top: 10px;
+position: relative;
+text-align: center;
+font-size: 13px;
+  }
+  
+.heading-two {
+		padding-bottom: 5px;
+	}
+.button {
+   border: 2px #ff9999;
+  background-color: #d5c8ce;
+  color: white;
+  padding: 18px 118px;
+  font-size: 18px;
+  border-radius: 8px;
+  display: block;
+}
+.two-column{
+    display: flex;
+    background-color: #a18d8f;
+}
+
+.btn{
+    display: inline-block;}
+.contact{
+    padding-right: 32px;
+    padding-left: 33px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 51px;
+    margin-left: 87px;
+    cursor:pointer;
+    color: #000000;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 24px;
+    border-color: #000000;
+    font-size: 18px;
+    border: 5px solid #9a5f7a;
+}
+
+button.contact {}
+.text{
+    display: inline-block;
+    width: 478px;
+    text-align: justify;
+    margin-left: 169px;
+    margin-top: 24px;
+    font-family: system-ui;
+	font-style: italic;
+}
+.contact:hover{
+    border-color:#281a2a;
+    color:#9a5f7a;
+}
+
+/* .two-column2 div{ */
+	 /* margin-right: 10px; */
+  /* margin-left: 10px; */
+  /* padding: 10 px */
+/* } */
+/* .two-column2 div{ */
+	/* float: left; */
+  /* font-family: 'Garamond', serif; */
+  /* font-size: 18px; */
+/* } */
+	
+
+.text1 {
+	font-family: system-ui;
+	font-style: italic;
+	font-size: 17px;
+}
+.text2 {
+	font-family: system-ui;
+	font-style: italic;
+	font-size: 17px;
+}
+.fot {
+	padding: 24px;
+}
+.namai {
+ display: inline-block;
+ width: 413px;
+ text-align: justify;
+ margin-left: 105px;
+ margin-top: 13px;
+ font-family: system-ui;
+ font-style: italic;
+}
+.homebtn {display: grid;align-items: end;justify-items: stretch;}
+.contact{
+    padding-right: 32px;
+    padding-left: 33px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 51px;
+    margin-left: 87px;
+    cursor:pointer;
+    color: #000000;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 24px;
+    border-color: #000000;
+    font-size: 18px;
+    border: 5px solid #9a5f7a;
+}
+
+
+button.contact {}
+.text{
+    display: inline-block;
+    width: 478px;
+    text-align: justify;
+    margin-left: 169px;
+    margin-top: 24px;
+    font-family: system-ui;
+	font-style: italic;
+}
+.contact:hover{
+    border-color:#281a2a;
+    color:#9a5f7a;
+}
+
+
+
+
+
+
+  <style>
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer div {
+            text-align: center;
+			display: inline-block; 
+        }
+        .footer img {
+            border-radius: 50%; 
+            width: 55px; 
+            height: 55px; 
+            object-fit: cover;
+        }
+    </style>
+	
+	
